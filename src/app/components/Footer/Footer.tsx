@@ -6,7 +6,7 @@ const { footer } = styles;
 const Footer = () => {
   return (
     <footer className={footer}>
-      <span>Find me in:</span>
+      <span>find me in:</span>
       <a
         href="https://www.linkedin.com/in/danylo-santoro/"
         target="_blank"

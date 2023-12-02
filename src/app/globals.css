@@ -15,6 +15,10 @@
 
   --links-size: 1rem;
   --text-default-weight: 400;
+
+  --token-color: #4D5BCE;
+  --key-color: #43D9AD;
+  --code-color: #E99287;
 }
 
 @media (prefers-color-scheme: dark) {

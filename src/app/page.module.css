@@ -17,3 +17,54 @@
   padding: 2rem;
   background-color: var(--outer-background);
 }
+
+.welcome {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 9rem;
+}
+
+.welcome h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: var(--comment-color);
+}
+
+.welcome h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--comment-color);
+}
+
+.welcome h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--token-color);
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  line-height: 1;
+}
+
+.welcome p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--comment-color);
+  line-height: 1.8;
+}
+
+.token {
+  color: var(--token-color);
+}
+
+.key {
+  color: var(--key-color);
+}
+
+.code {
+  color: var(--code-color);
+}
