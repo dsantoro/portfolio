@@ -1,0 +1,40 @@
+.header {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  align-items: center;
+}
+
+.title {
+  color: var(--comment-color);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.95rem;
+  border-right: 1px solid var(--border);
+}
+
+.nav {
+  border-radius: 1px solid var(--border);
+  display: flex;
+}
+
+.nav a {
+  color: var(--comment-color);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.95rem 1.5rem;
+  display: inline-flex;
+  border-right: 1px solid var(--border);
+  border-bottom: 0.18rem solid transparent;
+  transition: border-bottom-color 0.2s ease-in-out;
+  will-change: border-bottom-color;
+}
+
+.nav a:hover, .nav > a.active {
+  border-bottom-color: #FEA55F;
+}
+
+.nav a:last-child {
+  border-right: none;
+  margin-left: auto;
+  border-left: 1px solid var(--border);
+}

@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  height: 100%;
+}
+
+.editor {
+  padding: 1rem;
+  padding-left: 2rem;
+  counter-reset: section;
+}
+
+.editor p {
+  color: var(--comment-color);
+  line-height: 1.6875rem;
+  font-size: 1.125rem;
+  counter-increment: section;
+}
+
+.editor p::before {
+  content: counter(section);
+  color: var(--comment-color);
+  margin-right: 2rem;
+}

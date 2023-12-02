@@ -1,0 +1,23 @@
+.red {
+  color: #E99287;
+}
+
+.green {
+  color: #43D9AD;
+}
+
+.blue {
+  color: #3A49A4;
+}
+
+.text {
+  font-size: 1rem;
+  color: var(--comment-color);
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.text > * {
+  margin-inline: .5rem;
+}

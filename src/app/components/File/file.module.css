@@ -1,0 +1,7 @@
+.file {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 2.6rem;
+  color: var(--comment-color);
+}
