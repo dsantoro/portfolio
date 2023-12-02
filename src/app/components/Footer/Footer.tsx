@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className={footer}>
       <span>find me in:</span>
       <a
+        title="Linkedin"
         href="https://www.linkedin.com/in/danylo-santoro/"
         target="_blank"
         rel="noopener noreferrer"
@@ -15,6 +16,7 @@ const Footer = () => {
         <Linkedin size={28} />
       </a>
       <a
+        title="Facebook"
         href="https://www.facebook.com/danylo.santoro"
         target="_blank"
         rel="noopener noreferrer"
@@ -22,6 +24,7 @@ const Footer = () => {
         <Facebook size={28} />
       </a>
       <a
+        title="Github"
         href="https://github.com/dsantoro"
         target="_blank"
         rel="noopener noreferrer"

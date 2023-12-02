@@ -19,6 +19,7 @@ export default function Home() {
         <span className={token}>const</span>{" "}
         <span className={key}>githubLink</span> ={" "}
         <a
+          title="Github"
           href="https://github.com/dsantoro"
           target="_blank"
           rel="noopener noreferrer"
