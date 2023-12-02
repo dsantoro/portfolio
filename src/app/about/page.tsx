@@ -22,6 +22,7 @@ export default function About() {
       <p> * nulla pariatur. Excepteur sint occaecat </p>
       <p> * officia deserunt mollit anim id est laborum.</p>
       <p> */</p>
+      <p></p>
     </div>
   );
 }

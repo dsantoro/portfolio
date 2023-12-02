@@ -6,8 +6,9 @@
 
 .editor {
   padding: 1rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
   counter-reset: section;
+  position: relative;
 }
 
 .editor p {
@@ -20,5 +21,6 @@
 .editor p::before {
   content: counter(section);
   color: var(--comment-color);
-  margin-right: 2rem;
+  position: absolute;
+  left: 1rem;
 }

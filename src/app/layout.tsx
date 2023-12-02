@@ -3,6 +3,7 @@ import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import styles from "./page.module.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const { container, content, canvas } = styles;
 
@@ -25,9 +26,7 @@ export default function RootLayout({
           <main className={container}>
             <Header />
             <div className={content}>{children}</div>
-            <footer>
-              <h1>footer</h1>
-            </footer>
+            <Footer />
           </main>
         </div>
       </body>

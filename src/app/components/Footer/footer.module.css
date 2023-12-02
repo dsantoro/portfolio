@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer span,
+.footer a {
+  color: var(--comment-color);
+  text-decoration: none;
+  size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  gap: .5rem;
+  border-right: 1px solid var(--border);
+  height: 100%;
+}
+
+.footer a:last-child {
+  margin-left: auto;
+  border-left: 1px solid var(--border);
+  border-right: none;
+}
