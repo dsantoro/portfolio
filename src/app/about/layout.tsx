@@ -51,6 +51,15 @@ const RootLayout = ({ children }: Props) => {
               <File fileName="education.ts" />
             </Link>
           </Acordeon>
+          <Acordeon
+            button={<Folder label="setup" />}
+            icon={<ChevronRight size={20} />}
+            iconOpen={<ChevronDown size={20} />}
+          >
+            <Link href="/about/setup">
+              <File fileName="setup.txt" />
+            </Link>
+          </Acordeon>
         </Acordeon>
 
         <Acordeon
