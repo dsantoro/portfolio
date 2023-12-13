@@ -58,13 +58,13 @@
 }
 
 .token {
-  color: var(--token-color);
+  color: var(--token-color) !important;
 }
 
 .key {
-  color: var(--key-color);
+  color: var(--key-color) !important;
 }
 
 .code {
-  color: var(--code-color);
+  color: var(--code-color) !important;
 }

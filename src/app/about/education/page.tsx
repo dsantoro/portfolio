@@ -1,3 +1,10 @@
+import FileLabel from "@/app/components/FileLabel";
+
 export default function Education() {
-  return <h1>Education</h1>;
+  return (
+    <>
+      <FileLabel fileName="education.ts" />
+      <h1>Education</h1>
+    </>
+  );
 }

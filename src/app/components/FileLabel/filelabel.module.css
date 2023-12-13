@@ -1,0 +1,13 @@
+.filelabel {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.filelabel p {
+  padding: .7rem;
+  color: var(--white-color);
+  border-right: 1px solid var(--border);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

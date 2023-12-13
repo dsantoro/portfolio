@@ -34,12 +34,12 @@ const RootLayout = ({ children }: Props) => {
             </Link>
           </Acordeon>
           <Acordeon
-            button={<Folder label="interests" />}
+            button={<Folder label="technologies" />}
             icon={<ChevronRight size={20} />}
             iconOpen={<ChevronDown size={20} />}
           >
-            <Link href="/about/interests">
-              <File fileName="interests.ts" />
+            <Link href="/about/technologies">
+              <File fileName="technologies.ts" />
             </Link>
           </Acordeon>
           <Acordeon
@@ -74,7 +74,7 @@ const RootLayout = ({ children }: Props) => {
           odio! Ut, amet!
         </Acordeon>
       </Sidebar>
-      <div>{children}</div>
+      <div style={{ overflowY: "auto" }}>{children}</div>
     </div>
   );
 };

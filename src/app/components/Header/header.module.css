@@ -30,7 +30,7 @@
 }
 
 .nav a:hover, .nav > a.active {
-  border-bottom-color: #FEA55F;
+  border-bottom-color: var(--code-color);
 }
 
 .nav a:last-child {
